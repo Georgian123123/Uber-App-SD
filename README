@@ -1,0 +1,38 @@
+-----------------------------------------------------------------
+Implementare
+-----------------------------------------------------------------
+Graful l-am implementat cu ajutorul unui Hashtable in care am 
+retinut nodurile si vecinii corespunzatori.
+-----------------------------------------------------------------
+Task1
+-----------------------------------------------------------------
+Folosind BFS-ul, cautam daca exista vecinul precizat pentru nodul
+corespunzator.
+-----------------------------------------------------------------
+Task2
+-----------------------------------------------------------------
+Folosind tot BFS-ul, calculam distanta catre vecinul cautat.
+Asta inseamna ca fiecare muchie are valoarea 1.
+-----------------------------------------------------------------
+Task3
+-----------------------------------------------------------------
+Stergeam, adaugam, sau schimbam muchiile intre ele, depinde
+cerintei.Apoi, utilizandu-ma de functiile create precent :
+-cautare de drum.
+-costul unui drum.
+, verificam cerintele.
+-----------------------------------------------------------------
+Task4
+-----------------------------------------------------------------
+Adaug soferii de uber.Soferul cel mai apropiat de client il
+gaseam prin : creeam distanele de la fiecare sofer la client.
+(soferii trebuiau  sa poata ajunge la client).Apoi, sortam 
+soferii in functie de distanta, rating mediu, nume.
+Afisarile de tip top le realizam prin sortarea a ceea ce mi se
+cerea.(de obicei, rating-nume, distanta totala - nume).
+-----------------------------------------------------------------
+Task5
+-----------------------------------------------------------------
+Utilizandu-ma de BFS pentru existenta unui drum si costul respec-
+tiv, vedeam unde putea ajunge soferul cu cantitatea de combusti-
+bil avut.
